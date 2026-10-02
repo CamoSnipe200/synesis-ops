@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T14:38:00-05:00",
+  "updatedAt": "2026-10-02T14:39:00-05:00",
   "updatedBy": "Engineering Lead",
   "bots": [
     "Ghost",
@@ -14,10 +14,10 @@
       "name": "Catalog layout",
       "owner": "Ghost",
       "stage": "done",
-      "blocker": "firestore indexes deploy pending",
+      "blocker": null,
       "ca_id": "bc-766f1ec2-17e7-5e7e-b737-f76f4291ecad",
       "pr": 143,
-      "updatedAt": "2026-10-02T14:38:00-05:00",
+      "updatedAt": "2026-10-02T14:39:00-05:00",
       "pr_url": "https://github.com/CamoSnipe200/Synesis/pull/143"
     },
     {
@@ -266,6 +266,14 @@
     }
   ],
   "history": [
+    {
+      "at": "2026-10-02T14:39:00-05:00",
+      "kind": "ops",
+      "task": "Catalog layout",
+      "owner": "Goliath",
+      "detail": "firestore:indexes SUCCESS synesis-cards",
+      "url": null
+    },
     {
       "at": "2026-10-02T14:38:00-05:00",
       "kind": "merge",
