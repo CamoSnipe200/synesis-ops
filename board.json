@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-02T14:34:00-05:00",
-  "updatedBy": "Goliath (seed)",
+  "updatedAt": "2026-10-02T14:38:00-05:00",
+  "updatedBy": "Engineering Lead",
   "bots": [
     "Ghost",
     "Marauder",
@@ -13,11 +13,12 @@
       "id": "catalog-layout",
       "name": "Catalog layout",
       "owner": "Ghost",
-      "stage": "cloud_agent",
-      "blocker": null,
+      "stage": "done",
+      "blocker": "firestore indexes deploy pending",
       "ca_id": "bc-766f1ec2-17e7-5e7e-b737-f76f4291ecad",
-      "pr": null,
-      "updatedAt": "2026-10-02T14:32:00-05:00"
+      "pr": 143,
+      "updatedAt": "2026-10-02T14:38:00-05:00",
+      "pr_url": "https://github.com/CamoSnipe200/Synesis/pull/143"
     },
     {
       "id": "catalog-data-migrate",
@@ -204,7 +205,7 @@
       "id": "r-participle",
       "task": "Participle drill",
       "task_id": "participle-drill",
-      "thumb": "./receipts/participle-drill.jpg",
+      "thumb": "/receipts/participle-drill.png",
       "src": "/workspace/cloud-agent-artifacts/bc-1d560108-87fe-5438-b72f-cb05389a8d5b/fixed-01-bank-and-table.png",
       "kind": "screenshot",
       "at": "2026-10-02T13:58:00-05:00"
@@ -213,7 +214,7 @@
       "id": "r-converse-kb",
       "task": "Converse keyboard",
       "task_id": "converse-keyboard",
-      "thumb": "./receipts/converse-keyboard.jpg",
+      "thumb": "/receipts/converse-keyboard.png",
       "src": "/workspace/cloud-agent-artifacts/bc-9310cca2-ce96-577f-9512-0c5f0b8f8f0d/after-accent-row.png",
       "kind": "screenshot",
       "at": "2026-10-02T14:08:00-05:00"
@@ -222,7 +223,7 @@
       "id": "r-ai-chips",
       "task": "AI credential chips",
       "task_id": "ai-credential-chips",
-      "thumb": "./receipts/ai-credential-chips.jpg",
+      "thumb": "/receipts/ai-credential-chips.png",
       "src": "/workspace/cloud-agent-artifacts/bc-2f25fbea-fd0d-53c7-a102-9c496a1e1038/end-412.png",
       "kind": "screenshot",
       "at": "2026-10-02T14:21:00-05:00"
@@ -231,7 +232,7 @@
       "id": "r-film",
       "task": "Film intro stuck",
       "task_id": "film-intro-stuck",
-      "thumb": "./receipts/film-intro.jpg",
+      "thumb": "/receipts/film-intro.png",
       "src": "/workspace/cloud-agent-artifacts/bc-b7dfc8e8-e163-568e-a54f-37ada99f9c0d/home-intro.png",
       "kind": "screenshot",
       "at": "2026-10-02T14:12:00-05:00"
@@ -240,7 +241,7 @@
       "id": "r-sideload",
       "task": "Sideload portal",
       "task_id": "sideload-portal-v11",
-      "thumb": "./receipts/sideload-portal.jpg",
+      "thumb": "/receipts/sideload-portal.png",
       "src": "/workspace/cloud-agent-artifacts/bc-0875de43-30c5-595a-9c71-1019db1c96a9/sideload-authorized.png",
       "kind": "screenshot",
       "at": "2026-10-01T08:50:00-05:00"
@@ -249,7 +250,7 @@
       "id": "r-stripe",
       "task": "Stripe balance top-ups",
       "task_id": "stripe-topups",
-      "thumb": "./receipts/stripe-balance.jpg",
+      "thumb": "/receipts/stripe-balance.png",
       "src": "/workspace/cloud-agent-artifacts/bc-bcbcb94c-3f1f-5728-9897-a0522bd7cac5/balance-success-desktop.png",
       "kind": "screenshot",
       "at": "2026-09-30T04:11:00-05:00"
@@ -258,13 +259,21 @@
       "id": "r-catalog",
       "task": "Catalog render",
       "task_id": "catalog-data-migrate",
-      "thumb": "./receipts/catalog-render.jpg",
+      "thumb": "/receipts/catalog-render.webp",
       "src": "/workspace/cloud-agent-artifacts/bc-b797c503-06f2-5ee0-9c96-d4f559844b65/words_catalog_render_check.webp",
       "kind": "screenshot",
       "at": "2026-09-24T12:53:00-05:00"
     }
   ],
   "history": [
+    {
+      "at": "2026-10-02T14:38:00-05:00",
+      "kind": "merge",
+      "task": "Catalog layout",
+      "owner": "Ghost",
+      "detail": "PR #143 \u2192 cbd5726; indexes deploy pending",
+      "url": "https://github.com/CamoSnipe200/Synesis/pull/143"
+    },
     {
       "at": "2026-10-02T14:32:00-05:00",
       "task": "Catalog layout",
