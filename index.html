@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Synesis ops</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>Synesis ops</h1>
+      <p class="sub">Tasks out there · eng bots · V1 checklist</p>
+    </div>
+    <p class="meta" id="meta">loading…</p>
+  </header>
+
+  <section class="bots" id="bots" aria-label="Eng bots"></section>
+
+  <main>
+    <section>
+      <h2>Tasks <span class="count" id="tasks-count"></span></h2>
+      <div class="task-list" id="tasks"></div>
+    </section>
+
+    <section>
+      <h2>V1 todos <span class="count" id="todos-count"></span></h2>
+      <ul class="todos" id="todos"></ul>
+      <p class="hint">Edit <code>data/board.json</code> → <code>v1_todos</code> (Kibbles / EL).</p>
+    </section>
+
+    <section>
+      <h2>Verification receipts</h2>
+      <div class="receipts" id="receipts"></div>
+    </section>
+
+    <section>
+      <h2>History <span class="muted">7 days</span></h2>
+      <ol class="history" id="history"></ol>
+    </section>
+  </main>
+
+  <footer id="footer"></footer>
+  <script src="./app.js"></script>
+</body>
+</html>

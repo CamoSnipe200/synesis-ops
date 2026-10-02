@@ -1,0 +1,416 @@
+{
+  "updatedAt": "2026-10-02T14:34:00-05:00",
+  "updatedBy": "Goliath (seed)",
+  "bots": [
+    "Ghost",
+    "Marauder",
+    "Marine",
+    "Reaper",
+    "Click"
+  ],
+  "tasks": [
+    {
+      "id": "catalog-layout",
+      "name": "Catalog layout",
+      "owner": "Ghost",
+      "stage": "cloud_agent",
+      "blocker": null,
+      "ca_id": "bc-766f1ec2-17e7-5e7e-b737-f76f4291ecad",
+      "pr": null,
+      "updatedAt": "2026-10-02T14:32:00-05:00"
+    },
+    {
+      "id": "catalog-data-migrate",
+      "name": "Catalog data migrate",
+      "owner": "Ghost",
+      "stage": "done",
+      "blocker": null,
+      "ca_id": null,
+      "pr": 139,
+      "pr_url": "https://github.com/CamoSnipe200/Synesis/pull/139",
+      "updatedAt": "2026-10-02T13:59:53-05:00"
+    },
+    {
+      "id": "ai-credential-chips",
+      "name": "AI credential chips",
+      "owner": "Ghost",
+      "stage": "done",
+      "blocker": null,
+      "ca_id": "bc-2f25fbea-fd0d-53c7-a102-9c496a1e1038",
+      "pr": 141,
+      "pr_url": "https://github.com/CamoSnipe200/Synesis/pull/141",
+      "updatedAt": "2026-10-02T14:21:58-05:00"
+    },
+    {
+      "id": "converse-keyboard",
+      "name": "Converse keyboard",
+      "owner": "Marauder",
+      "stage": "done",
+      "blocker": null,
+      "ca_id": "bc-9310cca2-ce96-577f-9512-0c5f0b8f8f0d",
+      "pr": 142,
+      "pr_url": "https://github.com/CamoSnipe200/Synesis/pull/142",
+      "updatedAt": "2026-10-02T14:08:38-05:00"
+    },
+    {
+      "id": "film-intro-stuck",
+      "name": "Film intro stuck",
+      "owner": "Marauder",
+      "stage": "done",
+      "blocker": null,
+      "ca_id": null,
+      "pr": 140,
+      "pr_url": "https://github.com/CamoSnipe200/Synesis/pull/140",
+      "updatedAt": "2026-10-02T14:12:19-05:00"
+    },
+    {
+      "id": "participle-drill",
+      "name": "Participle drill",
+      "owner": "Marauder",
+      "stage": "done",
+      "blocker": null,
+      "ca_id": "bc-1d560108-87fe-5438-b72f-cb05389a8d5b",
+      "pr": 138,
+      "pr_url": "https://github.com/CamoSnipe200/Synesis/pull/138",
+      "updatedAt": "2026-10-02T13:58:38-05:00"
+    },
+    {
+      "id": "balance-money-decimals",
+      "name": "Balance money decimals",
+      "owner": "Marine",
+      "stage": "done",
+      "blocker": null,
+      "ca_id": null,
+      "pr": 137,
+      "pr_url": "https://github.com/CamoSnipe200/Synesis/pull/137",
+      "updatedAt": "2026-10-02T13:48:07-05:00"
+    },
+    {
+      "id": "sideload-portal-v11",
+      "name": "Sideload portal versionCode 11",
+      "owner": "Ghost",
+      "stage": "done",
+      "blocker": null,
+      "ca_id": null,
+      "pr": 135,
+      "pr_url": "https://github.com/CamoSnipe200/Synesis/pull/135",
+      "updatedAt": "2026-10-02T13:05:32-05:00"
+    },
+    {
+      "id": "select-scroll-jitter",
+      "name": "Select-scroll jitter",
+      "owner": "Marine",
+      "stage": "done",
+      "blocker": null,
+      "ca_id": "bc-c8b561c4-3cc0-5a51-afb4-4021a1bf0dd0",
+      "pr": 134,
+      "pr_url": "https://github.com/CamoSnipe200/Synesis/pull/134",
+      "updatedAt": "2026-10-01T10:26:37-05:00"
+    },
+    {
+      "id": "balance-admin",
+      "name": "Balance admin / tameion",
+      "owner": "Ghost",
+      "stage": "prompting",
+      "blocker": "Held for Kibbles \u2014 draft #128",
+      "ca_id": null,
+      "pr": 128,
+      "pr_url": "https://github.com/CamoSnipe200/Synesis/pull/128",
+      "updatedAt": "2026-10-01T18:04:58-05:00"
+    },
+    {
+      "id": "siwc",
+      "name": "Sign in with ChatGPT",
+      "owner": "Ghost",
+      "stage": "prompting",
+      "blocker": "Held for Kibbles \u2014 draft #129",
+      "ca_id": null,
+      "pr": 129,
+      "pr_url": "https://github.com/CamoSnipe200/Synesis/pull/129",
+      "updatedAt": "2026-10-01T18:12:10-05:00"
+    },
+    {
+      "id": "stripe-topups",
+      "name": "Stripe balance top-ups",
+      "owner": "Ghost",
+      "stage": "prompting",
+      "blocker": "Held for Kibbles \u2014 draft #130 (after #128)",
+      "ca_id": "bc-bcbcb94c-3f1f-5728-9897-a0522bd7cac5",
+      "pr": 130,
+      "pr_url": "https://github.com/CamoSnipe200/Synesis/pull/130",
+      "updatedAt": "2026-10-01T18:21:38-05:00"
+    }
+  ],
+  "v1_todos": [
+    {
+      "id": "merge-128",
+      "text": "Decide/merge Balance admin #128",
+      "done": false,
+      "order": 1,
+      "link": "https://github.com/CamoSnipe200/Synesis/pull/128"
+    },
+    {
+      "id": "merge-130",
+      "text": "Decide/merge Stripe #130 (after #128)",
+      "done": false,
+      "order": 2,
+      "link": "https://github.com/CamoSnipe200/Synesis/pull/130"
+    },
+    {
+      "id": "merge-129",
+      "text": "Decide/merge SIWC #129",
+      "done": false,
+      "order": 3,
+      "link": "https://github.com/CamoSnipe200/Synesis/pull/129"
+    },
+    {
+      "id": "verify-synesis-125",
+      "text": "verify-synesis #125 yes/no",
+      "done": false,
+      "order": 4,
+      "link": "https://github.com/CamoSnipe200/Synesis/pull/125"
+    },
+    {
+      "id": "synesis-gmail",
+      "text": "Synesis Gmail account",
+      "done": false,
+      "order": 5,
+      "link": null
+    },
+    {
+      "id": "billing-admin-uids",
+      "text": "BILLING_ADMIN_UIDS when #128 merges",
+      "done": false,
+      "order": 6,
+      "link": null
+    },
+    {
+      "id": "catalog-phone-check",
+      "text": "Catalog layout on phone after merge",
+      "done": false,
+      "order": 7,
+      "link": null
+    },
+    {
+      "id": "herald-catalog",
+      "text": "Herald catalog posts / draft OK cadence",
+      "done": false,
+      "order": 8,
+      "link": null
+    }
+  ],
+  "receipts": [
+    {
+      "id": "r-participle",
+      "task": "Participle drill",
+      "task_id": "participle-drill",
+      "thumb": "./receipts/participle-drill.jpg",
+      "src": "/workspace/cloud-agent-artifacts/bc-1d560108-87fe-5438-b72f-cb05389a8d5b/fixed-01-bank-and-table.png",
+      "kind": "screenshot",
+      "at": "2026-10-02T13:58:00-05:00"
+    },
+    {
+      "id": "r-converse-kb",
+      "task": "Converse keyboard",
+      "task_id": "converse-keyboard",
+      "thumb": "./receipts/converse-keyboard.jpg",
+      "src": "/workspace/cloud-agent-artifacts/bc-9310cca2-ce96-577f-9512-0c5f0b8f8f0d/after-accent-row.png",
+      "kind": "screenshot",
+      "at": "2026-10-02T14:08:00-05:00"
+    },
+    {
+      "id": "r-ai-chips",
+      "task": "AI credential chips",
+      "task_id": "ai-credential-chips",
+      "thumb": "./receipts/ai-credential-chips.jpg",
+      "src": "/workspace/cloud-agent-artifacts/bc-2f25fbea-fd0d-53c7-a102-9c496a1e1038/end-412.png",
+      "kind": "screenshot",
+      "at": "2026-10-02T14:21:00-05:00"
+    },
+    {
+      "id": "r-film",
+      "task": "Film intro stuck",
+      "task_id": "film-intro-stuck",
+      "thumb": "./receipts/film-intro.jpg",
+      "src": "/workspace/cloud-agent-artifacts/bc-b7dfc8e8-e163-568e-a54f-37ada99f9c0d/home-intro.png",
+      "kind": "screenshot",
+      "at": "2026-10-02T14:12:00-05:00"
+    },
+    {
+      "id": "r-sideload",
+      "task": "Sideload portal",
+      "task_id": "sideload-portal-v11",
+      "thumb": "./receipts/sideload-portal.jpg",
+      "src": "/workspace/cloud-agent-artifacts/bc-0875de43-30c5-595a-9c71-1019db1c96a9/sideload-authorized.png",
+      "kind": "screenshot",
+      "at": "2026-10-01T08:50:00-05:00"
+    },
+    {
+      "id": "r-stripe",
+      "task": "Stripe balance top-ups",
+      "task_id": "stripe-topups",
+      "thumb": "./receipts/stripe-balance.jpg",
+      "src": "/workspace/cloud-agent-artifacts/bc-bcbcb94c-3f1f-5728-9897-a0522bd7cac5/balance-success-desktop.png",
+      "kind": "screenshot",
+      "at": "2026-09-30T04:11:00-05:00"
+    },
+    {
+      "id": "r-catalog",
+      "task": "Catalog render",
+      "task_id": "catalog-data-migrate",
+      "thumb": "./receipts/catalog-render.jpg",
+      "src": "/workspace/cloud-agent-artifacts/bc-b797c503-06f2-5ee0-9c96-d4f559844b65/words_catalog_render_check.webp",
+      "kind": "screenshot",
+      "at": "2026-09-24T12:53:00-05:00"
+    }
+  ],
+  "history": [
+    {
+      "at": "2026-10-02T14:32:00-05:00",
+      "task": "Catalog layout",
+      "owner": "Ghost",
+      "event": "stage",
+      "detail": "cloud_agent running (bc-766f1ec2)"
+    },
+    {
+      "at": "2026-10-02T14:21:58-05:00",
+      "task": "AI credential chips",
+      "owner": "Ghost",
+      "event": "merged",
+      "detail": "#141 merged"
+    },
+    {
+      "at": "2026-10-02T14:12:19-05:00",
+      "task": "Film intro stuck",
+      "owner": "Marauder",
+      "event": "merged",
+      "detail": "#140 merged"
+    },
+    {
+      "at": "2026-10-02T14:08:38-05:00",
+      "task": "Converse keyboard",
+      "owner": "Marauder",
+      "event": "merged",
+      "detail": "#142 merged \u00b7 prove shots attached"
+    },
+    {
+      "at": "2026-10-02T13:59:53-05:00",
+      "task": "Catalog data migrate",
+      "owner": "Ghost",
+      "event": "merged",
+      "detail": "#139 merged"
+    },
+    {
+      "at": "2026-10-02T13:58:38-05:00",
+      "task": "Participle drill",
+      "owner": "Marauder",
+      "event": "merged",
+      "detail": "#138 merged \u00b7 prove shots + demo mp4"
+    },
+    {
+      "at": "2026-10-02T13:48:07-05:00",
+      "task": "Balance money decimals",
+      "owner": "Marine",
+      "event": "merged",
+      "detail": "#137 merged"
+    },
+    {
+      "at": "2026-10-02T13:38:12-05:00",
+      "task": "Sideload portal nickname strip",
+      "owner": "Ghost",
+      "event": "merged",
+      "detail": "#136 merged"
+    },
+    {
+      "at": "2026-10-02T13:05:32-05:00",
+      "task": "Sideload portal versionCode 11",
+      "owner": "Ghost",
+      "event": "merged",
+      "detail": "#135 merged"
+    },
+    {
+      "at": "2026-10-01T10:26:37-05:00",
+      "task": "Select-scroll jitter",
+      "owner": "Marine",
+      "event": "merged",
+      "detail": "#134 merged"
+    },
+    {
+      "at": "2026-10-01T08:50:50-05:00",
+      "task": "Sideload download portal",
+      "owner": "Ghost",
+      "event": "merged",
+      "detail": "#133 merged \u00b7 prove shots"
+    },
+    {
+      "at": "2026-10-01T08:40:58-05:00",
+      "task": "Balance OPENAI key fallback",
+      "owner": "Marine",
+      "event": "merged",
+      "detail": "#131 merged"
+    },
+    {
+      "at": "2026-09-30T17:28:45-05:00",
+      "task": "Sideload APK publish gate",
+      "owner": "Ghost",
+      "event": "merged",
+      "detail": "#127 merged"
+    },
+    {
+      "at": "2026-09-30T08:36:40-05:00",
+      "task": "Balance P0 gates",
+      "owner": "Marine",
+      "event": "merged",
+      "detail": "#126 merged"
+    },
+    {
+      "at": "2026-09-30T02:51:02-05:00",
+      "task": "Firebase Bearer 401",
+      "owner": "Ghost",
+      "event": "merged",
+      "detail": "#124 merged"
+    },
+    {
+      "at": "2026-09-30T01:42:29-05:00",
+      "task": "Ship server/ai on Vercel",
+      "owner": "Ghost",
+      "event": "merged",
+      "detail": "#123 merged"
+    },
+    {
+      "at": "2026-09-29T23:38:23-05:00",
+      "task": "Balance wallet Phase 2",
+      "owner": "Marine",
+      "event": "merged",
+      "detail": "#122 merged"
+    },
+    {
+      "at": "2026-09-29T22:39:12-05:00",
+      "task": "AI route auth Phase 1a",
+      "owner": "Ghost",
+      "event": "merged",
+      "detail": "#121 merged"
+    },
+    {
+      "at": "2026-09-29T21:32:25-05:00",
+      "task": "Click soft-accel Jobs 1/3",
+      "owner": "Click",
+      "event": "merged",
+      "detail": "#120 merged"
+    },
+    {
+      "at": "2026-09-29T21:31:34-05:00",
+      "task": "Film theme",
+      "owner": "Marauder",
+      "event": "merged",
+      "detail": "#119 merged"
+    },
+    {
+      "at": "2026-09-30T07:49:14-05:00",
+      "task": "Converse lesson chunk + Greek KB default",
+      "owner": "Marauder",
+      "event": "merged",
+      "detail": "#118 merged"
+    }
+  ]
+}
