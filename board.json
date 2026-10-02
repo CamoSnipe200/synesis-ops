@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T14:39:00-05:00",
+  "updatedAt": "2026-10-02T20:32:56Z",
   "updatedBy": "Engineering Lead",
   "bots": [
     "Ghost",
@@ -198,6 +198,14 @@
       "done": false,
       "order": 8,
       "link": null
+    },
+    {
+      "id": "v2-cloud-sync",
+      "text": "V2 ONLY (not V1): cloud sync Catalog synesis IDs \u2194 decks + memorized (>75% recall); full backup stays file export. Do not build in V1.",
+      "done": false,
+      "order": 9,
+      "parked": true,
+      "phase": "v2"
     }
   ],
   "receipts": [
